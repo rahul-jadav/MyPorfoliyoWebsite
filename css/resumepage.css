@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.main {
+    background-color:#607f92;
+    width: 90vw;
+    height: 230vh;
+    border: 2px solid grey;
+    margin-left: 4rem;
+    margin-top: 3rem;
+}
+
+.header {
+    width: 100%;
+    height: 19%;
+    background-color: #1f384d;
+    position: relative;
+
+}
+
+/*span{
+    font-size: 25px;
+    color: aliceblue;
+    margin-left: 7rem;
+    margin-top: 2rem;
+    position: absolute;
+    
+    
+
+}*/
+
+
+.top-content p {
+    font-size: 25px;
+    color: aliceblue;
+    margin-left: 7rem;
+    margin-top: 2rem;
+    position: absolute;
+
+
+
+}
+
+.social {
+    font-size: 20px;
+    margin-left: 80%;
+    margin-top: 1rem;
+
+
+}
+
+.social a {
+    border: 2px solid aqua;
+    border-radius: 100%;
+    margin: 1px;
+}
+
+.social a:hover {
+    box-shadow: 0px 0px 3px 3px aquamarine;
+}
+
+.profile {
+    width: 30%;
+    height: 108%;
+    position: absolute;
+    top: 8rem;
+    left: 7rem;
+    
+
+
+
+}
+.profile-text {
+    width: 54%;
+    height: 108%;
+    background-color: #33627e;
+    border-radius: 25px 25px;
+    position: absolute;
+    top: 8rem;
+    left: 32.2rem;
+    box-shadow: 0px 0px 1px 0px whitesmoke;
+
+}
+
+.profile-text h2 {
+    font-size: 35px;
+    color: aqua;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.profile-text h3 {
+    font-size: 20px;
+    color: azure;
+    margin-left: 1rem;
+}
+
+hr {
+    width: 90%;
+    margin-left: 1rem;
+    color: grey;
+    margin-top: 0.5rem;
+
+}
+
+.profile-text h4 {
+    font-size: 20px;
+    color: aqua;
+    margin-left: 1rem;
+
+}
+
+.profile-text h5 {
+    font-size: 20px;
+    margin-left: 1rem;
+
+}
+
+.soc-back {
+    background-color: #1d354a;
+    border-radius: 25px 25px;
+    height: 15%;
+    margin-top: 14px;
+    position: relative;
+}
+
+.social1 {
+    font-size: 20px;
+    margin-left: 1%;
+    margin-top: 1rem;
+    position: absolute;
+
+}
+
+.social1 a {
+    border: 2px solid aqua;
+    border-radius: 100%;
+    margin: 45px;
+}
+
+.social1 a:hover {
+    box-shadow: 0px 0px 3px 3px aquamarine;
+}
+h1{
+    font-size: 30px;
+    margin-top: 11rem;
+    margin-left: 35rem;
+    border: 2px solid grey;
+    border-radius: 20px 20px;
+    width: 15%;
+    text-align: center;
+    color: azure;
+    background-color: #1d354a;
+}
+h1:hover{
+    box-shadow: 0px 0px 3px 3px grey;
+}
+.ed1{
+    display: flex;
+}
+.education{
+    width: 39%;
+    height: 8%;
+    background-color: #1d354a;
+    margin-left: 6rem;
+    margin-top: 2rem;
+    border-radius: 10px 10px;
+    padding: 4px;
+    
+    
+    
+    
+}
+.education p{
+    font-size: 33px;
+    color: aqua;
+    margin-left: 11rem;
+    margin-top: -3.5rem;
+    padding: 2px;
+}
+.education span{
+    font-size: 20px;
+    color: aliceblue;
+    margin-left: 11.5rem;
+    
+}
+button{
+    font-size: 25px;
+    border-radius: 20px 20px;
+    padding: 4px;
+    background-color:aquamarine;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+}
+.educ{
+    width: 85%;
+    height: 5%;
+    background-color: #1d354a;
+    margin-left: 6rem;
+    margin-top: 1rem;
+    border-radius: 10px 10px;
+    padding: 4px;
+    
+    
+    
+    
+}
+.educ p{
+    font-size: 35px;
+    color: aqua;
+    margin-left: 13rem;
+    margin-top: -3.5rem;
+    padding: 2px;
+}
+.educ span{
+    font-size: 20px;
+    color: aliceblue;
+    margin-left: 13rem;
+    
+}
+button{
+    font-size: 25px;
+    border-radius: 20px 20px;
+    padding: 4px;
+    background-color:aquamarine;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+}
+.skill{
+    width: 84%;
+    height: 20%;
+    background-color: #1d354a;
+    margin-left: 6.5rem;
+    margin-top: 1.5rem;
+    border-radius: 25px 25px;
+}
+h6{
+    font-size: 30px;
+    margin-top: 1rem;
+    margin-left: 35rem;
+    border: 2px solid grey;
+    border-radius: 20px 20px;
+    width: 15%;
+    text-align: center;
+    color: azure;
+    background-color: #1d354a;
+}
+h6:hover{
+    box-shadow: 0px 0px 3px 3px grey;
+}
+.ul1{
+    margin-left: 5rem;
+}
+.li1{
+    font-size: 45px;
+    color: aqua;
+    margin-left: 2rem;
+    
+}
+.li2{
+    font-size: 30px;
+    color: aliceblue;
+    margin-top: 0.5rem;
+    margin-left: 6rem;
+}
+.ul{
+    margin-left: 40rem;
+    margin-top: -18.5rem;
+}
+.li3{
+    font-size: 45px;
+    color: aqua;
+    margin-left: 2rem;
+     
+}
+.li4{
+    font-size: 30px;
+    color: aliceblue;
+    margin-top: 0.5rem;
+    margin-left: 6rem;  
+}
+.expe{
+    width: 85%;
+    height: 5%;
+    background-color: #1d354a;
+    border-radius: 20px 20px;
+    margin-left: 6rem;
+    margin-top: 2rem;
+    text-align: center;
+    padding-top: .5rem;
+
+}
+.expe span{
+    font-size: 55px;
+    color: aliceblue;
+    
+}
+.lang{
+    width: 85%;
+    height: 5%;
+    background-color: #1d354a;
+    border-radius: 20px 20px;
+    margin-left: 6rem;
+    margin-top: 2rem;
+    display: flex;
+    
+
+}
+ .lang div{
+    font-size: 35px;
+    color: aliceblue;
+    margin: 5rem;
+    margin-top: 1.5rem;
+}
+.footer{
+    display: flex;
+    margin-top: -1.5rem;
+    margin-left: 10rem;
+}
+.footer a{
+    font-size: 30px;
+    border-radius: 20px 20px;
+    border: 2px solid grey;
+    width: 15%;
+    text-align: center;
+    background-color: #1f384d;
+    color: aliceblue;
+    margin: 5rem;
+    padding: 0.5rem;
+    text-decoration: none;
+}
+.footer a:hover{
+    box-shadow: 0px 0px 3px 2px whitesmoke;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

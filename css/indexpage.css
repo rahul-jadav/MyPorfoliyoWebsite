@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+body{
+    background-color: #1d354a;
+    color: azure;
+    background-image: url(../media/rj1.jpg);
+    background-repeat: no-repeat;
+    background-size: 800px 600px;
+    background-position: 100%;
+    background-position-y: 80px;
+    
+
+
+    
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 25px;
+    color: azure;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 20px;
+
+}
+.navbar a{
+    font-size: 18px;
+    color: azure;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 35px;
+    transition-duration: .2s;
+    margin-right: 25px;
+
+}
+.navbar a:hover ,.navbar a.active{
+    color: aqua;
+}
+.home{
+    display: flex;
+    height: 160vh;
+    padding: 0 10px;
+    align-items: center;
+}
+.home-content{
+    max-width: 600px;
+    margin-left: 10px;
+    margin-top: -500px;
+}
+.home-content h1{
+    font-size: 55px;
+    font-weight: 700;
+    margin-left: 0;
+}
+.home-content h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: aqua;
+}
+.home-content p{
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+.box{
+    width: 350px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.box a{
+    width: 150px;
+    height: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(51, 148, 116);
+    color: black;
+    border: 2px solid rgb(51, 148, 116);
+    border-radius: 10px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    margin-top: 15px;
+    position: relative;
+    
+
+}
+.home-social{
+    position: absolute;
+    width: 170px;
+    margin-top: -120px;
+    display: flex;
+}
+.home-social a{
+    border: 2px solid aqua;
+    border-radius: 100%;
+    font-size: 35px;
+    margin: 7px;
+
+}
+.home-social a:hover{
+    box-shadow: 0px 0px 3px 3px aquamarine;
+}
+.service{
+       margin-top: -600px;
+}
+.service-content h1{
+    color: black;
+    border: 2px solid black;
+    width: 20vw;
+    background-color: aquamarine;
+    border-radius: 20px 20px;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 130px;
+
+
+}
+.service-content h1:hover{
+    box-shadow: 0px 0px 4px 3px aqua;
+}
+.service-content-image{
+    display: flex;
+    margin: 30px;
+    margin-top: -15px;
+}
+.img1{
+    
+    max-width: 350px;
+    margin: 50px;
+      
+}
+.image1{
+    font-size: 70px;
+    margin-left: 120px;
+    
+}
+.img1:hover{
+    background-color: #526D82;
+    box-shadow: 0px 0px 4px 5px  #526d82;
+   /* border: 2px solid gray;*/
+  
+}
+.img1 h3{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(166, 238, 238);
+}
+.img1 p{
+    font-size: 15px;
+    text-align: justify;
+    text-align-last: center;
+    
+}
+.footer{
+    background-color: #3d708f;
+    width: 100%;
+    height: 150px;
+    
+    
+}
+h1{
+    font-size: 30px;
+    color: aliceblue;
+    margin-left: 50px;
+    
+    
+}
+.menu{
+    margin-top: 35px;
+    float: left;
+}
+.menu a{
+    font-size: 25px;
+    color: aliceblue;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.773);
+    border-radius: 10px 10px;
+    margin: 5px;
+    padding: 5px;
+    
+
+}
+.addres{
+
+    float: left;
+    margin: 5px;
+    
+}
+.addres h1{
+    font-size: 35px;
+    margin-top: -40px;
+}
+.addres a{
+
+    margin-left: -5px;
+    text-decoration: none;
+    
+}
+.addres h3{
+    margin-left: 40px;
+}
+.socialicon{
+    margin-top: -30px;
+    font-size: 35px;
+    margin-left: 50px;
+    float: left;
+}
+.icon1{
+
+    margin-left: 40px;
+    margin-top: -20px;
+    
+}
+.loc{
+    margin-top: -30px;
+    float: left;
+      
+    
+
+}
+.loc h1{
+    margin-left: 100px;
+    position: relative;
+}
+iframe{
+    margin-left: 100px;
+    margin-bottom: 0px;
+    margin-top: -10px;
+}
+.back-top {
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 45%; 
+    color: azure;
+    /*background-color: black;*/
+    border-radius: 20px 20px;
+    padding: 10px;
+    box-shadow: 0px 0px 3px 3px gray;
+    
+}
+.back-top:hover{
+    box-shadow: 0px 0px 3px 3px antiquewhite;
+
+}
+
+
+
+
+
+
+
+
+
+
